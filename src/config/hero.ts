@@ -1,5 +1,6 @@
 type Hero = {
   title: string;
+  value: string;
   description: string;
   typeAnimationTexts: (string | number)[];
   achievementsList: Achievement[];
@@ -21,11 +22,12 @@ export const hero: Hero = {
     1000,
   ],
   achievementsList: [
-    { metric: "高一社團", postfix: "巧藝社" },
-    { metric: "高二社團", postfix: "機器人社" },
-    { metric: "高一上選修",  postfix: "生活中的心理學" },
-    { metric: "高一下選修", postfix: "文心光影" },
-    { metric: "高三上選修", postfix: "科技應用專題" },
-    { metric: "高三下選修",postfix: "實用日語" },
+    { metric: "高一社團", value: "巧藝", postfix: "社" },
+    { metric: "高二社團", value: "機器人", postfix: "社" },
+    { metric: "高一上選修", value: "生活中的", postfix: "心理學" },
+    { metric: "高一下選修", value: "文心", postfix: "光影" },
+    { metric: "高三上選修", value: "科技應用", postfix: "專題" },
+    { metric: "高三下選修", value: "實用", postfix: "日語" },
+
   ],
 };
