@@ -5,7 +5,7 @@ import Link from "next/link";
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "motion/react";
 import { hero } from "@/config/hero";
-import CountUp from 'react-countup';
+// import CountUp from 'react-countup';
 
 export default function HeroSection() {
   return (
