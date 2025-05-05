@@ -1,6 +1,5 @@
 type Hero = {
   title: string;
-  value: string;
   description: string;
   typeAnimationTexts: (string | number)[];
   achievementsList: Achievement[];
