@@ -8,6 +8,7 @@ type Hero = {
 
 type Achievement = {
   metric: string;
+  value: string;
   postfix?: string;
   prefix?: string;
 };
