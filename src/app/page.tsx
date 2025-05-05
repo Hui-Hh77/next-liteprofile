@@ -1,7 +1,6 @@
 import HeroSection from "@/components/HeroSection";
 import AboutSection from "@/components/AboutSection";
 import TabInterface from "@/components/TabInterface";
-import Contest from "@/components/Contest";
 import BlogSection from "@/components/BlogSection";
 import Radar from "@/components/Radar";
 
@@ -13,7 +12,6 @@ export default function Home() {
         <AboutSection />
         <Radar />
         <TabInterface />
-        <Contest />
         <BlogSection limit={5} />
       </div>
     </main>
