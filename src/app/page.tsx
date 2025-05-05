@@ -1,7 +1,6 @@
 import HeroSection from "@/components/HeroSection";
 import AboutSection from "@/components/AboutSection";
 import TabInterface from "@/components/TabInterface";
-import BlogSection from "@/components/BlogSection";
 import Radar from "@/components/Radar";
 
 export default function Home() {
@@ -12,7 +11,6 @@ export default function Home() {
         <AboutSection />
         <Radar />
         <TabInterface />
-        <BlogSection limit={5} />
       </div>
     </main>
   );
