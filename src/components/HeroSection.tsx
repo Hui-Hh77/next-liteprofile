@@ -84,7 +84,7 @@ function AchievementsSection() {
             <h2 className="flex flex-row text-4xl font-bold">
               {achievement.prefix}
               <span className="text-4xl font-bold">
-                //<CountUp end={parseInt(achievement.value)} />
+                {/*<CountUp end={parseInt(achievement.value)} /> */}
                 {achievement.value}
               </span>
               {achievement.postfix}
