@@ -23,7 +23,7 @@ export default function RadarChartComponent() {
       <RadarChart cx="50%" cy="50%" outerRadius="80%" data={data}>
         <PolarGrid />
         <PolarAngleAxis dataKey="subject" />
-        <PolarRadiusAxis angle={30} domain={[0, 150]} />
+        <PolarRadiusAxis angle={30} domain={[0, 100]} />
         <Radar
           name="Score"
           dataKey="A"
